@@ -1,0 +1,38 @@
+﻿Build started 2/13/2017 7:50:18 PM.
+     1>Project "J:\College\Semester 2\C++ Programming\Cald_Assignment 12.1\Cald_Assignment 12.1\Cald_Assignment 12.1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Computer.cpp Source.cpp
+         Source.cpp
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\source.cpp(22): error C2660: 'Laptop::m_SetCPU' : function does not take 1 arguments
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\source.cpp(23): error C2660: 'Laptop::m_SetGPU' : function does not take 1 arguments
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\source.cpp(24): error C3867: 'Laptop::m_GetType': function call missing argument list; use '&Laptop::m_GetType' to create a pointer to member
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\source.cpp(24): error C2660: 'Laptop::m_SetScreenSize' : function does not take 1 arguments
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\source.cpp(31): error C2660: 'Desktop::m_GetGPU' : function does not take 1 arguments
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\source.cpp(32): error C3867: 'Desktop::m_GetType': function call missing argument list; use '&Desktop::m_GetType' to create a pointer to member
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\source.cpp(32): error C2660: 'Desktop::m_GetCPU' : function does not take 1 arguments
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\source.cpp(33): error C3867: 'Desktop::m_GetType': function call missing argument list; use '&Desktop::m_GetType' to create a pointer to member
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\source.cpp(33): error C2660: 'Desktop::m_GetPowerSupply' : function does not take 1 arguments
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\source.cpp(40): error C2660: 'Tablet::m_SetScreenSize' : function does not take 1 arguments
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\source.cpp(41): error C2660: 'Tablet::m_SetCPU' : function does not take 1 arguments
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\source.cpp(42): error C2660: 'Tablet::m_SetGPU' : function does not take 1 arguments
+         Computer.cpp
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\computer.cpp(23): error C2556: 'std::string Computer::m_GetLaptop(void)' : overloaded function differs only by return type from 'char Computer::m_GetLaptop(void)'
+                 j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\computer.h(19) : see declaration of 'Computer::m_GetLaptop'
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\computer.cpp(23): error C2371: 'Computer::m_GetLaptop' : redefinition; different basic types
+                 j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\computer.h(19) : see declaration of 'Computer::m_GetLaptop'
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\computer.cpp(28): error C2556: 'std::string Computer::m_GetDesktop(void)' : overloaded function differs only by return type from 'char Computer::m_GetDesktop(void)'
+                 j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\computer.h(21) : see declaration of 'Computer::m_GetDesktop'
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\computer.cpp(28): error C2371: 'Computer::m_GetDesktop' : redefinition; different basic types
+                 j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\computer.h(21) : see declaration of 'Computer::m_GetDesktop'
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\computer.cpp(32): error C2511: 'std::string Computer::m_GetTablet(void)' : overloaded member function not found in 'Computer'
+                 j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\computer.h(15) : see declaration of 'Computer'
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\computer.cpp(33): error C2597: illegal reference to non-static member 'Computer::m_Tablet'
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\computer.cpp(40): error C2660: 'Laptop::m_SetType' : function does not take 1 arguments
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\computer.cpp(44): error C2063: 'Laptop::m_CPU' : not a function
+     1>j:\college\semester 2\c++ programming\cald_assignment 12.1\cald_assignment 12.1\computer.cpp(44): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         Generating Code...
+     1>Done Building Project "J:\College\Semester 2\C++ Programming\Cald_Assignment 12.1\Cald_Assignment 12.1\Cald_Assignment 12.1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:08.67
